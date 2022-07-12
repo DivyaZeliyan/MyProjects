@@ -1,0 +1,49 @@
+.container{
+    display:flex;
+    flex direction:row;
+    color:blue;
+    Margin:60px;
+    justify-content:space-evenly;
+    border-bottom:solid;
+    border-color:green;
+    padding:20px;
+}
+.class1{
+    border:solid;
+    border-color: coral;
+    border-radius: 10px;
+    padding:10px;
+    background-color: pink;
+}
+.class2{
+    display:grid;
+grid-template-columns: 50% 50%;
+border:double;
+border-color: darkviolet;
+padding:40px;
+background-color: darksalmon;
+    margin:60px;
+    grid-gap: 20px;
+}
+.class3{
+    background-color: darkcyan;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    border:dotted;
+    border-color: darksalmon;
+}
+div:hover{background-color: deeppink;}
+.class2:hover{background-color: khaki;}
+h2{background-color: gold;
+color:red;
+text-transform: capitalize;}
+@media only screen and (max-width: 600px) {
+    .container{
+        display:block;
+        flex direction:column;
+    }
+    .class2{
+        display:grid;
+grid-template-columns: 20% 80%;
+    }
+}

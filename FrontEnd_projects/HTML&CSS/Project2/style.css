@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url(bcgrd.jpg);
+    background-size: cover;
+}
+.container{
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform:translate(-50%,-50%);
+}
+.card{
+    padding: 50px 30px 40px 30px;
+    background:rgb(83, 42, 42);
+    border-radius:10px;
+}
+#name{
+    width: 200px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid brown;
+    padding: 6px;
+    margin-bottom: 20px;
+    color:white
+}
+a{
+    font-size:13px;
+    color:palevioletred
+}
+img{
+    border-radius:50%;
+    position:absolute;
+    margin-left:100px;
+    margin-top:-40px;
+}
+#button1{
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: pink;
+    color:black;
+    margin-top: 20px;
+    border:none;
+    outline:none;
+}
+#button1:hover{
+    background-color:greenyellow;
+    color:black;
+    cursor: pointer;
+}
